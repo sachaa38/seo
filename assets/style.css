@@ -105,6 +105,7 @@ body {
 	background-color: #BEB45A;
 	border-radius:0 ;
 }
+
 .nav-pills .nav-link {
 	color: #000
 }
@@ -244,6 +245,16 @@ input[type="submit"] {
 	padding: .5em 1em
 }
 
+.info-company{
+	padding:20px;
+	background-color:black;
+	color:white;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	
+}
+
 @media all and (max-width: 1180px) {
 	.picture {
 		flex : 2;
@@ -319,7 +330,7 @@ input[type="submit"] {
 	}
 }
 
-@media all and (max-width: 650px) {
+@media all and (max-width: 679px) {
 	.top-header {
 		flex-direction: column;
 		padding-inline: 0;
